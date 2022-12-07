@@ -45,7 +45,7 @@ function subscribe() {
         Subject : "Startech Email Subscription",
         Body : $("#sub-email").val(),
     }).then(
-      message => alert("Thank For Contact StarTech IT Solutions Newsletter")
+      message => alert("Thank For Subscribing to StarTech IT Solutions Newsletter")
     );
 }
 
@@ -61,6 +61,6 @@ Email.send({
     Subject : "Startech Enquiry",
     Body : $("#email_body").val(),
 }).then(
-  message => alert("Thank For Contact StarTech IT Solutions We Will Revert Soonest.")
+  message => alert("Thank For Contacting StarTech IT Solutions We Will Revert Soonest.")
 );
 }
