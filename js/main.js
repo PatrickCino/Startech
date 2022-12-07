@@ -17,6 +17,11 @@ $(function () {
            $("#light-logo").show();
             $("#mobile-image").attr("src", "images/menu.png");
         }
+        
+        $("#responsive-icon").click(function(e){
+            $("#light-logo").hide();
+        })
+                     
     });
 });
 
