@@ -634,9 +634,9 @@ img.bg {
     #responsive-icon {
         display: block;
     }
-  /*   #navigation {
+   #navigation {
         display: none;
-    } */
+    } 
     #footer * {
         font-size: 10px;
     }
