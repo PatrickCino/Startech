@@ -353,6 +353,7 @@ img.bg {
 .mainpage-display {
     margin: 10em auto auto !important; 
     padding-left:5em;
+    padding:5em;
     width: 100% !important; 
     text-align: left !important;
     background: url("/images/Startech.png");
@@ -592,20 +593,22 @@ img.bg {
         margin-right: 0;
         padding-left: 0;
         padding-right: 0;
+        float: none;
     }
     .home-box {
-        width: 29%;
+        width: 100%;
         margin: 1%;
         padding: 1%;
+
     }
     .home-box h1 {
         padding: 0;
         margin: 0;
         margin-bottom: 0.2em;
     }
-    .home-box p {
+  /*   .home-box p {
         display: none;
-    }
+    } */
     #ldq,
     #rdq {
         font-size: 100px;
