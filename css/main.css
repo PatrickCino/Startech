@@ -648,8 +648,7 @@ img.bg {
     .footer-left {
         width: 100%;
         text-align: center;
-        padding-left: 0%;
-        padding: 0%;
+        float: none;
     }
     #submit {
         width: 92% !important;
