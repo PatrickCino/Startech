@@ -5,22 +5,27 @@ $(function () {
 
     $(document).scroll(function () {
         if ($(this).scrollTop() > 100) {
-          // $("#header").css({ "box-shadow": "0px 3px 4px -2px #AAAAAA", background: "rgba(255,255,255,1)", "border-bottom": "0.0625em solid #B0B0B0" });
-          ////  $("#header li a").css({ color: "#000000" });
+       
          $("#light-logo").hide();
-          //  $("#dark-logo").show();
+          
             $("#mobile-image").attr("src", "images/menu-dark.png");
         } else {
-          //  $("#header").css({ "box-shadow": "none", background: "transparent", "border-bottom": "none" });
-          //  $("#header li a").css({ color: "#FFFFFF" });
-          //  $("#dark-logo").hide();
+        
            $("#light-logo").show();
             $("#mobile-image").attr("src", "images/menu.png");
+
+
+         //   if($('#responsive-icon').css('display') === 'block')
+          //  {
+         //       $("#light-logo").hide();
+        //    }
         }
         
         $("#responsive-icon").click(function(e){
             $("#light-logo").hide();
         })
+
+      
                      
     });
 });
@@ -64,8 +69,10 @@ Email.send({
     To : 'startechitnam@gmail.com',
     From : "patricknghifikwa@gmail.com",
     Subject : "Startech Enquiry",
-    Body : $("#email_body").val(),
+    Body : "Client Name: " + $("#name").val() + "<br>"  +
+            "Client Email: " +   $("#email").val() + "<br>"+
+            "Request: " +    $("#email_body").val(),
 }).then(
-  message => alert("Thank For Contacting StarTech IT Solutions We Will Revert Soonest.")
+  message => alert("Thank You For Contacting StarTech IT Solutions We Will Revert Soonest.")
 );
 }

@@ -146,7 +146,7 @@
            
             <div id="contact-form-layout"> <br><br><br><br>
                 <h1 class="mainpage-heading left">Contact us</h1>
-                <input class="textbox" type="text" placeholder="Name" />
+                <input class="textbox" type="text" placeholder="Name"  id="name"/>
                 <input class="textbox" type="text" placeholder="Email" id="email" />
                 <textarea class="textfield" placeholder="Your message" id="email_body"></textarea>  
                 <button id="submit" class="filled-button" onclick="sendEmail()">Submit</button>
@@ -160,23 +160,37 @@
             
         </div>
 
-          <!-- <div class="boxes-container" id="quote-container">
-                <h1 >About Us</h1>
-                <p>StarTech IT Solutions (Pty) Ltd (also known as Startech) was founded in 2022 with the goal to be the leaading innovate in the Technology industry. 
-            </div>   --> 
+          <div class="boxes-container" id="quote-container">
+                <h1 id="box-h1" >About Us</h1>
+                <p id="about_us" style="text-align:center ;"> StarTech IT Solutions (Pty) Ltd (also known as Startech) was founded in 2022 with the goal to be the leaading innovate in the Technology industry.</p> 
+           <br><br>
+                    <div class="footer-left" style="padding-left: 2em;">
+                        <ul>
+                            <li>📞&nbsp;0818768312 / 0814235219</li>
+                            <li>✉️&nbsp;startechitnam@gmail.com</li>
+                            <li>📍&nbsp;Windhoek</li>
+                            <li>📍&nbsp;Oshakati</li>
+                        </ul>
+                        <a href="https://www.facebook.com/profile.php?id=100088459840697" target="_blank"><img class="social-media-img" src="images/facebook.png" /></a>
+                        <a href="https://www.instagram.com/startech_na/" target="_blank"><img class="social-media-img" src="images/instagram.png" /></a>
+                        <a href="https://www.linkedin.com/company/startech-it-services-na/" target="_blank"><img class="social-media-img" src="images/linkedin.png" /></a>
+                
+
+
+                      
+                    </div>
+
+                 <!--    <div id="newsletter">
+                        <p id="subscribe-text">Subscribe to our newsletter</p>
+                        <input class="textbox" id="sub-email" style="display: inline-block;" type="text" placeholder="Your Email" />
+                        <input class="filled-button" id="subscribe" onclick="subscribe();" type="button" value="Subscribe" />
+                        <p id="newsletter-error"></p>
+                    </div> -->
+                </div>   
 
         <div id="footer">
-            <p  style="text-align:center;" >StarTech IT Solutions (Pty) Ltd (also known as Startech) was founded in 2022 with the goal to be the leaading innovate in the Technology industry. </p>
-            <div class="wrapper">
-                <div class="footer-left" style="padding-left: 2em;">
-                    <ul>
-                        <li>📞&nbsp;0818768312 / 0814235219</li>
-                        <li>✉️&nbsp;startechitnam@gmail.com</li>
-                        <li>📍&nbsp;Windhoek</li>
-                        <li>📍&nbsp;Oshakati</li>
-                        <li>📍&nbsp;Walvis Bay</li>
-                    </ul>
-                </div>
+             <div class="wrapper">
+         
                <!--  <div class="footer-left">
                     <ul>
                         <li>&nbsp;<a style="display: inline;" href="#about_us">About Us</a></li>
@@ -189,16 +203,9 @@
                 <div class="clear-mob"></div>
                 <div class="footer-right">
                     <div style="padding-left: 1.5em;">
-                        <div id="newsletter">
-                            <p id="subscribe-text">Subscribe to our newsletter</p>
-                            <input class="textbox" id="sub-email" style="display: inline-block;" type="text" placeholder="Your Email" />
-                            <input class="filled-button" id="subscribe" onclick="subscribe();" type="button" value="Subscribe" />
-                            <p id="newsletter-error"></p>
-                        </div>
+                       
                         <div>
-                    <a href="https://www.facebook.com/profile.php?id=100088459840697" target="_blank"><img class="social-media-img" src="images/facebook.png" /></a>
-                            <a href="https://www.instagram.com/startech_na/" target="_blank"><img class="social-media-img" src="images/instagram.png" /></a>
-                            <span id="copyright">&nbsp;© Copyright Startech@s2022</span>
+                          <span id="copyright">&nbsp;© Copyright Startech@2022</span>
                         </div>
                     </div>
                 </div>

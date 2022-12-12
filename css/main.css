@@ -191,7 +191,7 @@ form {
 }
 #footer {
     position: relative;
-    min-height: 10em;
+    min-height: 1em;
     padding-top: 0.5em;
     padding-bottom: 1.5em;
     overflow: hidden;
@@ -226,7 +226,8 @@ form {
     text-decoration: underline;
 }
 .footer-right {
-    float: right;
+
+    text-align: center;
     display: inline;
     margin: 1%;
     padding-right: 2em;
@@ -488,7 +489,7 @@ img.bg {
 }
 .social-media-img {
     width: 24px;
-    float: left;
+    text-align: center;
     display: inline;
 }
 #section {
@@ -811,4 +812,7 @@ img.bg {
     top: 0;
     left: 0;
     z-index: -1;
+}
+#about_us {
+    text-align: center;
 }
