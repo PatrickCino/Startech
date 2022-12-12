@@ -193,36 +193,36 @@ form {
     position: relative;
     min-height: 1em;
     padding-top: 0.5em;
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
     overflow: hidden;
     width: 100%;
     background-color: #3789d1;
 }
-.footer-left {
+.information {
     float: left;
     display: inline;
     width: 21%;
     margin: 1%;
 }
-.footer-left ul {
+.information ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.footer-left ul li {
+.information ul li {
     font-size: 14px;
     padding: 0;
     margin: 0;
     color: #000000;
     margin-bottom: 0.8em;
 }
-.footer-left ul li img {
+.information ul li img {
     float: left;
 }
-.footer-left ul li a {
+.information ul li a {
     display: block;
 }
-.footer-left ul li a:hover {
+.information ul li a:hover {
     text-decoration: underline;
 }
 .footer-right {
@@ -545,7 +545,7 @@ img.bg {
     .clear-mob {
         clear:both;
     }
-    .footer-left {
+    .information {
         width: 44%;
     }
     .footer-right {
@@ -645,10 +645,11 @@ img.bg {
         height: 14px !important;
         width: 14px !important;
     }
-    .footer-left {
+    .information {
         width: 100%;
         text-align: center;
         float: none;
+        padding-bottom: 2em;
     }
     #submit {
         width: 92% !important;
