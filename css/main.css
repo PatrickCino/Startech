@@ -96,9 +96,8 @@ p a:hover {
     border: 1px solid #c0c0c0;
 }
 #copyright {
-    font-size: 0.8empx;
+    font-size: 0.8em;
     text-align: center;
-  
     color: #000000;
 }
 form {
@@ -201,12 +200,9 @@ form {
     width: 100%;
     background-color: #3789d1;
 }
-.information {
-    float: left;
-    display: inline;
-    width: 21%;
-    margin: 1%;
-}
+ .information {
+    padding-left: 2em;
+} 
 .information ul {
     list-style-type: none;
     padding: 0;
@@ -552,7 +548,6 @@ img.bg {
         width: 44%;
     }
     .footer-right {
-        float: left;
         display: inline;
         margin: 1%;
     }
@@ -628,6 +623,7 @@ img.bg {
         font-size: 14px;
         margin-left: 0;
         margin-right: 1em;
+        padding-right: 2em;
     }
     #quote-by {
         margin-top: -80px;
@@ -653,6 +649,8 @@ img.bg {
         text-align: center;
         float: none;
         padding-bottom: 2em;
+        padding-left: 0em;
+      
     }
     #submit {
         width: 92% !important;
@@ -721,6 +719,11 @@ img.bg {
     }
     #navigation ul ul li a:hover {
         color: #808080;
+    }
+    #copyright {
+     
+        text-align: center;
+       
     }
     
 }
