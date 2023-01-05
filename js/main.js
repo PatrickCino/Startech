@@ -77,5 +77,7 @@ Email.send({
  swal.fire({
     title: "Thank You For Contacting StarTech IT Solutions We Will Revert Soonest."
 })
+//window.location.reload()
+
 );
 }
