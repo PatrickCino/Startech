@@ -73,6 +73,9 @@ Email.send({
             "Client Email: " +   $("#email").val() + "<br>"+
             "Request: " +    $("#email_body").val(),
 }).then(
-  message => alert("Thank You For Contacting StarTech IT Solutions We Will Revert Soonest.")
+ // message => alert("Thank You For Contacting StarTech IT Solutions We Will Revert Soonest.")
+ swal.fire({
+    title: "Thank You For Contacting StarTech IT Solutions We Will Revert Soonest."
+})
 );
 }
