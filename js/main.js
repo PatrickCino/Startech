@@ -64,19 +64,21 @@ function subscribe() {
 function sendEmail() {
 Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "patricknghifikwa@gmail.com",
-    Password : "707579968BAB972C6862354F7CDF9D7A4054",
+    Username : "startechitnam@gmail.com",
+    Password : "B2A49ED71C75A9EA93D7EC2582BA02699793",
     To : 'startechitnam@gmail.com',
-    From : "patricknghifikwa@gmail.com",
+    From : "startechitnam@gmail.com",
     Subject : "Startech Enquiry",
     Body : "Client Name: " + $("#name").val() + "<br>"  +
             "Client Email: " +   $("#email").val() + "<br>"+
             "Request: " +    $("#email_body").val(),
 }).then(
- // message => alert("Thank You For Contacting StarTech IT Solutions We Will Revert Soonest.")
- swal.fire({
-    title: "Thank You For Contacting StarTech IT Solutions We Will Revert Soonest."
-})
+
+ message => alert("Thank You For Contacting StarTech IT Solutions We Will Revert Soonest.")
+
+ //swal.fire({
+   // title: "Thank You For Contacting StarTech IT Solutions We Will Revert Soonest."
+//})
 //window.location.reload()
 
 );
