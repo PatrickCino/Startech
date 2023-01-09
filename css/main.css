@@ -1,6 +1,6 @@
 /*Main*/
 html * {
-    font-family: "Open Sans", sans-serif;
+   font-family: "Nunito", sans-serif;
     font-size: 16px;
 }
 html {
@@ -166,19 +166,19 @@ form {
     margin-top: 48px;
 }
 .display h2 {
-    font-family: "Open Sans", sans-serif;
+   font-family: "Nunito", sans-serif;
     margin-bottom: 0.5em;
     font-weight: bold;
     font-size: 4.5em;
 }
 .display h3 {
-    font-family: "Open Sans", sans-serif;
+   font-family: "Nunito", sans-serif;
     margin-bottom: 0.5em;
     font-weight: bold;
     font-size: 3em;
 }
 .display p a {
-    font-family: "Open Sans", sans-serif;
+   font-family: "Nunito", sans-serif;
     text-decoration: none;
     color: #000000;
 }
@@ -402,7 +402,7 @@ img.bg {
 }
 #navigation ul li a {
     color: #FFFFFF;
-    font-family: "Open Sans", sans-serif;
+   font-family: "Nunito", sans-serif;
     font-size: 0.9em;
     letter-spacing: 0.03em;
     height: 4.3em;
@@ -699,7 +699,7 @@ img.bg {
     }
     #navigation ul li a {
         color: #FFFFFF;
-        font-family: "Open Sans", sans-serif;
+       font-family: "Nunito", sans-serif;
         font-size: 16px;
         letter-spacing: 0.03em;
         height: 3em;
